@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LEVOIT Vital 200S-P Air Purifier – 1875 Ft² | HEPA | 16% OFF</title>
+  <meta name="description" content="LEVOIT Vital 200S-P AHAM-certified air purifier covers up to 1875 sq ft. HEPA filtration, sleep mode, air quality monitor. Highly rated. Save 16% now." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --teal: #00a896;
+      --teal-dark: #007d6f;
+      --sky: #0ea5e9;
+      --orange: #f97316;
+      --green: #16a34a;
+      --gray-50: #f8fafc;
+      --gray-100: #f1f5f9;
+      --gray-200: #e2e8f0;
+      --gray-500: #64748b;
+      --gray-700: #334155;
+      --gray-900: #0f172a;
+      --white: #ffffff;
+      --shadow: 0 4px 24px rgba(0,0,0,.09);
+      --radius: 16px;
+    }
+
+    body { font-family: 'Inter', sans-serif; color: var(--gray-900); background: #fff; line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+
+    /* ── TOP BAR ── */
+    .topbar {
+      background: linear-gradient(90deg, #0ea5e9, #00a896);
+      color: #fff;
+      text-align: center;
+      padding: 10px 16px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: .3px;
+    }
+
+    /* ── NAV ── */
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 32px;
+      border-bottom: 1px solid var(--gray-200);
+      position: sticky;
+      top: 0;
+      background: rgba(255,255,255,.97);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+    }
+    .logo { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; }
+    .logo span { color: var(--teal); }
+    .nav-cta {
+      background: #007d6f;
+      color: #ffffff;
+      padding: 10px 24px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 14px;
+      transition: background .2s;
+    }
+    .nav-cta:hover { background: var(--teal-dark); }
+
+    /* ── HERO ── */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 64px 32px 48px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #ecfdf5;
+      color: var(--green);
+      border: 1.5px solid #a7f3d0;
+      border-radius: 50px;
+      padding: 5px 14px;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .hero-badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+
+    .badge-bestseller {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #fff7ed;
+      color: var(--orange);
+      border: 1.5px solid #fed7aa;
+      border-radius: 50px;
+      padding: 5px 14px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .hero h1 {
+      font-size: clamp(26px, 3.2vw, 42px);
+      font-weight: 900;
+      line-height: 1.18;
+      margin-bottom: 16px;
+    }
+    .hero h1 em { font-style: normal; color: var(--teal); }
+
+    .hero-desc {
+      font-size: 17px;
+      color: var(--gray-700);
+      margin-bottom: 24px;
+      max-width: 480px;
+    }
+
+    .rating-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 26px;
+    }
+    .stars { color: #f59e0b; font-size: 20px; letter-spacing: 1px; }
+    .rating-num { font-weight: 700; font-size: 16px; }
+    .rating-count { color: var(--gray-500); font-size: 14px; }
+
+    .price-block { margin-bottom: 28px; }
+    .price-row { display: flex; align-items: baseline; gap: 12px; }
+    .price-current { font-size: 42px; font-weight: 900; color: var(--teal); }
+    .price-original { font-size: 20px; color: var(--gray-500); text-decoration: line-through; }
+    .price-save {
+      background: #dcfce7;
+      color: var(--green);
+      font-size: 14px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 50px;
+    }
+    .price-note { font-size: 13px; color: var(--gray-500); margin-top: 6px; }
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: var(--orange);
+      color: #fff;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 18px 40px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: transform .15s, background .2s;
+      width: 100%;
+      max-width: 380px;
+    }
+    .cta-btn:hover { background: #ea6c0a; transform: translateY(-2px); }
+    .cta-sub { font-size: 13px; color: var(--gray-500); margin-top: 10px; }
+    .cta-redirect { font-size: 12px; color: var(--gray-500); margin-top: 5px; opacity: .75; }
+    .final-redirect { font-size: 13px; opacity: .6; margin-top: 8px; }
+    footer .footer-links { margin-top: 10px; display: flex; justify-content: center; gap: 10px; }
+    footer .footer-links span { color: var(--gray-200); }
+
+    .alexa-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--gray-200);
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--gray-700);
+      margin-top: 12px;
+    }
+    .alexa-dot { width: 10px; height: 10px; border-radius: 50%; background: #52a9ff; }
+
+    /* hero image */
+    .hero-img-wrap { position: relative; display: flex; justify-content: center; }
+    .hero-img-bg {
+      width: 460px;
+      height: 460px;
+      background: linear-gradient(135deg, #e0f7f4 0%, #e8f8ff 60%, #d5f5ee 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .hero-img-bg img { width: 100%; height: 100%; object-fit: contain; padding: 32px; }
+
+    .badge-float {
+      position: absolute;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      padding: 10px 16px;
+      font-weight: 700;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .badge-float.b1 { top: 20px; right: -20px; }
+    .badge-float.b2 { bottom: 50px; left: -20px; }
+    .badge-float.b3 { bottom: 110px; right: -30px; }
+    .badge-float .icon { font-size: 22px; }
+
+    /* ── CADR STRIP ── */
+    .cadr-strip {
+      background: linear-gradient(90deg, #0f2a3f, #0a3d4f);
+      color: #fff;
+    }
+    .cadr-inner {
+      display: flex;
+      justify-content: center;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+    .cadr-item {
+      flex: 1;
+      text-align: center;
+      padding: 28px 16px;
+      border-right: 1px solid rgba(255,255,255,.1);
+    }
+    .cadr-item:last-child { border-right: none; }
+    .cadr-val { font-size: 32px; font-weight: 900; color: #5ef0dc; }
+    .cadr-unit { font-size: 13px; color: #7dd3fc; font-weight: 600; }
+    .cadr-label { font-size: 13px; color: #94a3b8; margin-top: 4px; }
+
+    /* ── TRUST STRIP ── */
+    .trust-strip { background: var(--gray-50); border-top: 1px solid var(--gray-200); border-bottom: 1px solid var(--gray-200); }
+    .trust-inner {
+      display: flex;
+      justify-content: center;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 20px 28px;
+      border-right: 1px solid var(--gray-200);
+      flex: 1;
+    }
+    .trust-item:last-child { border-right: none; }
+    .trust-icon { font-size: 28px; }
+    .trust-label { font-size: 12px; color: var(--gray-500); }
+    .trust-val { font-size: 14px; font-weight: 700; }
+
+    /* ── SECTIONS ── */
+    .section { max-width: 1120px; margin: 0 auto; padding: 72px 32px; }
+    .section-tag { font-size: 13px; font-weight: 700; color: var(--teal); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; }
+    .section-title { font-size: clamp(24px, 2.8vw, 36px); font-weight: 900; margin-bottom: 12px; }
+    .section-sub { font-size: 16px; color: var(--gray-500); max-width: 560px; margin-bottom: 48px; }
+
+    /* ── FEATURES GRID ── */
+    .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .feature-card {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .feature-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+    .feature-icon { font-size: 38px; margin-bottom: 14px; }
+    .feature-title { font-size: 17px; font-weight: 700; margin-bottom: 8px; }
+    .feature-desc { font-size: 14px; color: var(--gray-500); line-height: 1.65; }
+
+    /* ── AHAM SECTION ── */
+    .aham-section {
+      background: linear-gradient(135deg, #0c2340 0%, #0e3a5c 50%, #0a4a3a 100%);
+      color: #fff;
+    }
+    .aham-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 72px 32px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .aham-inner .section-tag { color: #5ef0dc; }
+    .aham-inner .section-title { color: #fff; margin-bottom: 20px; }
+    .aham-desc { color: #94a3b8; font-size: 16px; line-height: 1.7; margin-bottom: 28px; }
+    .cert-card {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: var(--radius);
+      padding: 24px;
+    }
+    .cert-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      font-size: 15px;
+    }
+    .cert-row:last-child { border-bottom: none; }
+    .cert-icon { font-size: 24px; }
+    .cert-label { color: #94a3b8; font-size: 13px; }
+    .cert-val { font-weight: 700; color: #fff; }
+
+    /* ── ROOM COVERAGE ── */
+    .coverage-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .coverage-card {
+      border: 2px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 24px 16px;
+      text-align: center;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .coverage-card:hover { border-color: var(--teal); box-shadow: 0 0 0 4px rgba(0,168,150,.08); }
+    .coverage-card.highlight { border-color: var(--teal); background: #f0fdfa; }
+    .coverage-icon { font-size: 32px; margin-bottom: 10px; }
+    .coverage-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+    .coverage-size { font-size: 22px; font-weight: 900; color: var(--teal); }
+    .coverage-unit { font-size: 12px; color: var(--gray-500); }
+
+    /* ── SPECS ── */
+    .specs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+    .spec-list { list-style: none; }
+    .spec-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--gray-200);
+      font-size: 15px;
+    }
+    .spec-item:last-child { border-bottom: none; }
+    .spec-key { color: var(--gray-500); }
+    .spec-val { font-weight: 700; }
+    .spec-img {
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--gray-100);
+      min-height: 320px;
+    }
+    .spec-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    /* ── REVIEWS ── */
+    .reviews-bg { background: var(--gray-50); }
+    .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .review-card {
+      background: #fff;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      padding: 24px;
+    }
+    .review-stars { color: #f59e0b; font-size: 16px; margin-bottom: 10px; }
+    .review-text { font-size: 14px; color: var(--gray-700); line-height: 1.65; margin-bottom: 14px; }
+    .review-author { display: flex; align-items: center; gap: 10px; }
+    .review-avatar {
+      width: 38px; height: 38px; border-radius: 50%;
+      background: linear-gradient(135deg, #ccfbf1, #99f6e4);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 16px; color: var(--teal-dark);
+    }
+    .review-name { font-weight: 700; font-size: 14px; }
+    .review-date { font-size: 12px; color: var(--gray-500); }
+
+    /* ── FINAL CTA ── */
+    .final-cta {
+      background: linear-gradient(135deg, #00a896 0%, #0ea5e9 100%);
+      color: #fff;
+      text-align: center;
+      padding: 80px 32px;
+    }
+    .final-cta h2 { font-size: clamp(26px, 3vw, 40px); font-weight: 900; margin-bottom: 12px; }
+    .final-cta p { font-size: 18px; opacity: .88; margin-bottom: 32px; }
+    .final-price-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+    .final-price-current { font-size: 54px; font-weight: 900; }
+    .final-price-orig { font-size: 24px; text-decoration: line-through; opacity: .6; }
+    .final-badge {
+      background: var(--orange);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 800;
+      padding: 5px 14px;
+      border-radius: 50px;
+    }
+    .cta-btn-white {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: #fff;
+      color: var(--teal-dark);
+      font-size: 20px;
+      font-weight: 900;
+      padding: 20px 56px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: transform .15s, box-shadow .2s;
+      box-shadow: 0 8px 32px rgba(0,0,0,.18);
+    }
+    .cta-btn-white:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,.28); }
+    .final-note { font-size: 14px; opacity: .75; margin-top: 16px; }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 28px 32px;
+      font-size: 13px;
+      color: var(--gray-500);
+      border-top: 1px solid var(--gray-200);
+    }
+    footer a { color: var(--teal); }
+
+    /* ── REVEAL ── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity .55s ease, transform .55s ease;
+    }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    /* ── STICKY MOBILE ── */
+    .sticky-cta { display: none; }
+    @media (max-width: 900px) {
+      .sticky-cta {
+        display: flex;
+        position: fixed;
+        bottom: 0; left: 0; right: 0;
+        background: #fff;
+        padding: 12px 20px;
+        box-shadow: 0 -4px 20px rgba(0,0,0,.12);
+        z-index: 200;
+        gap: 12px;
+        align-items: center;
+      }
+      .sticky-price { font-size: 22px; font-weight: 900; color: var(--teal); }
+      .sticky-orig { font-size: 13px; color: var(--gray-500); text-decoration: line-through; }
+      .sticky-cta a {
+        flex: 1;
+        background: var(--orange);
+        color: #fff;
+        font-size: 16px;
+        font-weight: 800;
+        padding: 14px 20px;
+        border-radius: 50px;
+        text-align: center;
+      }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; gap: 32px; padding: 40px 20px 32px; }
+      .hero-img-wrap { order: -1; }
+      .hero-img-bg { width: 300px; height: 300px; }
+      .badge-float { display: none; }
+      .features-grid { grid-template-columns: 1fr; }
+      .aham-inner { grid-template-columns: 1fr; gap: 32px; }
+      .coverage-grid { grid-template-columns: 1fr 1fr; }
+      .specs-grid { grid-template-columns: 1fr; }
+      .reviews-grid { grid-template-columns: 1fr; }
+      .trust-inner { flex-wrap: wrap; }
+      .trust-item { border-right: none; border-bottom: 1px solid var(--gray-200); flex: 0 0 50%; }
+      .cadr-inner { flex-wrap: wrap; }
+      .cadr-item { flex: 0 0 50%; border-right: none; border-bottom: 1px solid rgba(255,255,255,.1); }
+      nav { padding: 14px 20px; }
+    }
+    @media (max-width: 600px) {
+      .coverage-grid { grid-template-columns: 1fr; }
+      .trust-item { flex: 0 0 100%; }
+      .cadr-item { flex: 0 0 100%; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  🌬️ &nbsp;<strong>Highly Rated</strong>&nbsp; in Home Air Purifiers &nbsp;·&nbsp; <strong>16% OFF</strong> — Save $30 &nbsp;·&nbsp; FREE Returns
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">LEVOIT<span>.</span></div>
+  <a href="https://www.amazon.com/dp/B0BGPF71Q6?maas=maas_adg_api_579991495871079815_static_12_201&ref_=aa_maas&tag=maas&aa_campaignid=a477c0bda19fb9901ce191bb864d6441&aa_adgroupid=2441kx9uSFiq0JC1_bqa73au6LItxCXY2rjNdCcW0CyWrKV5B_b4OG_bXN61txeFOKlC9SYqHSa8Z9OjfwZd4NAvTU_c&aa_creativeid=e4ad0aLlprfqgkR3gzknH0N8f7ao8e0XVe4fmrKFduqnrw0_c&th=1" class="nav-cta" target="_blank" rel="noopener">Shop on Amazon →</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <div class="hero-badge-row">
+      <div class="hero-badge">✅ AHAM VERIFIDE Certified</div>
+      <div class="badge-bestseller">🏆 Highly Rated</div>
+    </div>
+
+    <h1>Breathe <em>Cleaner Air</em><br/>in Every Room.</h1>
+
+    <p class="hero-desc">
+      The LEVOIT Vital 200S-P covers up to <strong>1,875 sq ft</strong> with HEPA-grade filtration, real-time air quality monitoring, and whisper-quiet Sleep Mode — so your family always breathes easier.
+    </p>
+
+    <div class="rating-row">
+      <div class="stars">★★★★★</div>
+      <span class="rating-num">4.7 / 5</span>
+      <span class="rating-count">(13,271 verified reviews)</span>
+    </div>
+
+    <div class="price-block">
+      <div class="price-row">
+        <span class="price-current">$159.99</span>
+        <span class="price-original">$189.99</span>
+        <span class="price-save">SAVE $30</span>
+      </div>
+      <p class="price-note">✓ FREE Returns &nbsp;·&nbsp; 10,000+ bought this month</p>
+    </div>
+
+    <a href="https://www.amazon.com/dp/B0BGPF71Q6?maas=maas_adg_api_579991495871079815_static_12_201&ref_=aa_maas&tag=maas&aa_campaignid=a477c0bda19fb9901ce191bb864d6441&aa_adgroupid=2441kx9uSFiq0JC1_bqa73au6LItxCXY2rjNdCcW0CyWrKV5B_b4OG_bXN61txeFOKlC9SYqHSa8Z9OjfwZd4NAvTU_c&aa_creativeid=e4ad0aLlprfqgkR3gzknH0N8f7ao8e0XVe4fmrKFduqnrw0_c&th=1" target="_blank" rel="noopener">
+      <button class="cta-btn">
+        🛒 &nbsp; Get 16% Off on Amazon
+      </button>
+    </a>
+    <p class="cta-sub">✓ Ships via Amazon Prime &nbsp;·&nbsp; Secure Checkout</p>
+    <p class="cta-redirect">Redirecting to Amazon for secure checkout</p>
+    <div class="alexa-badge">
+      <div class="alexa-dot"></div>
+      Works with Alexa — add voice control
+    </div>
+  </div>
+
+  <div class="hero-img-wrap">
+    <div class="hero-img-bg">
+      <img
+        src="https://m.media-amazon.com/images/I/71zfD5vuHwL._AC_SL1500_.jpg"
+        alt="LEVOIT Vital 200S-P Air Purifier White"
+      />
+    </div>
+    <div class="badge-float b1">
+      <span class="icon">🏠</span>
+      <div><div style="font-size:11px;color:#64748b">Coverage</div>1,875 ft²</div>
+    </div>
+    <div class="badge-float b2">
+      <span class="icon">😴</span>
+      <div><div style="font-size:11px;color:#64748b">Feature</div>Sleep Mode</div>
+    </div>
+    <div class="badge-float b3">
+      <span class="icon">🌿</span>
+      <div><div style="font-size:11px;color:#64748b">Filtration</div>99.97%</div>
+    </div>
+  </div>
+</section>
+
+<!-- CADR STRIP -->
+<div class="cadr-strip">
+  <div class="cadr-inner">
+    <div class="cadr-item reveal">
+      <div class="cadr-val">250</div>
+      <div class="cadr-unit">CFM</div>
+      <div class="cadr-label">Smoke CADR</div>
+    </div>
+    <div class="cadr-item reveal">
+      <div class="cadr-val">254</div>
+      <div class="cadr-unit">CFM</div>
+      <div class="cadr-label">Dust CADR</div>
+    </div>
+    <div class="cadr-item reveal">
+      <div class="cadr-val">289</div>
+      <div class="cadr-unit">CFM</div>
+      <div class="cadr-label">Pollen CADR</div>
+    </div>
+    <div class="cadr-item reveal">
+      <div class="cadr-val">99.97%</div>
+      <div class="cadr-unit"></div>
+      <div class="cadr-label">Filtration Efficiency</div>
+    </div>
+    <div class="cadr-item reveal">
+      <div class="cadr-val">1,875</div>
+      <div class="cadr-unit">ft²</div>
+      <div class="cadr-label">Max Coverage</div>
+    </div>
+  </div>
+</div>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="trust-inner">
+    <div class="trust-item reveal">
+      <span class="trust-icon">🏅</span>
+      <div><div class="trust-val">AHAM VERIFIDE</div><div class="trust-label">Independently certified performance</div></div>
+    </div>
+    <div class="trust-item reveal">
+      <span class="trust-icon">🐾</span>
+      <div><div class="trust-val">Pet & Allergy</div><div class="trust-label">Captures dander, pollen & odors</div></div>
+    </div>
+    <div class="trust-item reveal">
+      <span class="trust-icon">📡</span>
+      <div><div class="trust-val">Air Quality Monitor</div><div class="trust-label">Real-time indoor air sensing</div></div>
+    </div>
+    <div class="trust-item reveal">
+      <span class="trust-icon">😴</span>
+      <div><div class="trust-val">HEPA Sleep Mode</div><div class="trust-label">Whisper-quiet while you rest</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<section class="section reveal">
+  <p class="section-tag">Why Vital 200S-P</p>
+  <h2 class="section-title">Advanced Air Purification, Simplified</h2>
+  <p class="section-sub">Every feature is designed to keep your indoor air genuinely clean — not just filtered.</p>
+
+  <div class="features-grid">
+    <div class="feature-card reveal">
+      <div class="feature-icon">🏅</div>
+      <h3 class="feature-title">AHAM VERIFIDE Certified</h3>
+      <p class="feature-desc">Independently tested by the Association of Home Appliance Manufacturers for air cleaning performance, safety, and energy efficiency. Not just self-claimed — verified.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">🌿</div>
+      <h3 class="feature-title">HEPA-Grade Filtration</h3>
+      <p class="feature-desc">Captures 99.97% of airborne particles as small as 0.1–0.3 μm — including pollen, PM2.5, dust mites, pet dander, and smoke particles.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">📡</div>
+      <h3 class="feature-title">Real-Time Air Quality Monitor</h3>
+      <p class="feature-desc">Built-in laser sensor detects PM2.5 levels in real time and auto-adjusts fan speed so the air is always at its cleanest without wasting energy.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">😴</div>
+      <h3 class="feature-title">HEPA Sleep Mode</h3>
+      <p class="feature-desc">When in Auto Mode at night, the purifier drops to its quietest setting — below 24 dB — while maintaining HEPA-grade filtration performance.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">🌀</div>
+      <h3 class="feature-title">U-Shaped Air Inlet</h3>
+      <p class="feature-desc">A patented dual air inlet design (traditional + U-shaped) pulls in more air volume per cycle, trapping pet hair and odors before they can clog the filter.</p>
+    </div>
+    <div class="feature-card reveal">
+      <div class="feature-icon">🧹</div>
+      <h3 class="feature-title">Washable Pre-Filter</h3>
+      <p class="feature-desc">The outer pre-filter catches large particles like pet hair and is easy to remove and rinse — extending the life of your HEPA filter and saving on replacements.</p>
+    </div>
+  </div>
+</section>
+
+<!-- AHAM CERTIFICATION SECTION -->
+<div class="aham-section">
+  <div class="aham-inner">
+    <div>
+      <p class="section-tag">AHAM Certified</p>
+      <h2 class="section-title">Trusted by Experts, Verified by Science</h2>
+      <p class="aham-desc">
+        AHAM (Association of Home Appliance Manufacturers) is an ANSI-accredited body that independently evaluates air purifiers for real-world performance. When you see the AHAM VERIFIDE seal, you know it's been rigorously tested — not just marketed.
+      </p>
+      <p class="aham-desc">
+        The Vital 200S-P passed every standard for air purification performance, safety, and energy efficiency. That's the trust you deserve when it comes to the air your family breathes.
+      </p>
+    </div>
+    <div class="cert-card">
+      <div class="cert-row">
+        <span class="cert-icon">💨</span>
+        <div>
+          <div class="cert-label">Smoke CADR</div>
+          <div class="cert-val">250 CFM — AHAM Certified</div>
+        </div>
+      </div>
+      <div class="cert-row">
+        <span class="cert-icon">🌫️</span>
+        <div>
+          <div class="cert-label">Dust CADR</div>
+          <div class="cert-val">254 CFM — AHAM Certified</div>
+        </div>
+      </div>
+      <div class="cert-row">
+        <span class="cert-icon">🌸</span>
+        <div>
+          <div class="cert-label">Pollen CADR</div>
+          <div class="cert-val">289 CFM — AHAM Certified</div>
+        </div>
+      </div>
+      <div class="cert-row">
+        <span class="cert-icon">🌿</span>
+        <div>
+          <div class="cert-label">Filtration Efficiency</div>
+          <div class="cert-val">99.97% for 0.1–0.3 μm particles</div>
+        </div>
+      </div>
+      <div class="cert-row">
+        <span class="cert-icon">⚡</span>
+        <div>
+          <div class="cert-label">Energy</div>
+          <div class="cert-val">Energy Efficient — AHAM Tested</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ROOM COVERAGE -->
+<section class="section">
+  <p class="section-tag">Room Coverage</p>
+  <h2 class="section-title">One Purifier. Your Whole Home.</h2>
+  <p class="section-sub">Covering up to 1,875 sq ft — the Vital 200S-P handles large open-plan spaces, not just bedrooms.</p>
+  <div class="coverage-grid">
+    <div class="coverage-card reveal">
+      <div class="coverage-icon">🛏️</div>
+      <div class="coverage-title">Bedroom</div>
+      <div class="coverage-size">~300</div>
+      <div class="coverage-unit">sq ft — Perfect fit</div>
+    </div>
+    <div class="coverage-card reveal">
+      <div class="coverage-icon">🛋️</div>
+      <div class="coverage-title">Living Room</div>
+      <div class="coverage-size">~700</div>
+      <div class="coverage-unit">sq ft — Handles with ease</div>
+    </div>
+    <div class="coverage-card reveal highlight">
+      <div class="coverage-icon">🏠</div>
+      <div class="coverage-title">Open-Plan Home</div>
+      <div class="coverage-size">1,875</div>
+      <div class="coverage-unit">sq ft — Full coverage</div>
+    </div>
+    <div class="coverage-card reveal">
+      <div class="coverage-icon">🏢</div>
+      <div class="coverage-title">Basement / Office</div>
+      <div class="coverage-size">~500</div>
+      <div class="coverage-unit">sq ft — Purified in minutes</div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECS -->
+<section class="section" style="padding-top:0;">
+  <div class="specs-grid">
+    <div class="reveal">
+      <p class="section-tag">Product Specifications</p>
+      <h2 class="section-title">Everything You Need to Know</h2>
+      <ul class="spec-list">
+        <li class="spec-item"><span class="spec-key">Model</span><span class="spec-val">Vital 200S-P</span></li>
+        <li class="spec-item"><span class="spec-key">Coverage Area</span><span class="spec-val">Up to 1,875 ft²</span></li>
+        <li class="spec-item"><span class="spec-key">CADR (Smoke)</span><span class="spec-val">250 CFM</span></li>
+        <li class="spec-item"><span class="spec-key">CADR (Dust)</span><span class="spec-val">254 CFM</span></li>
+        <li class="spec-item"><span class="spec-key">CADR (Pollen)</span><span class="spec-val">289 CFM</span></li>
+        <li class="spec-item"><span class="spec-key">Filtration</span><span class="spec-val">HEPA-grade, 99.97%</span></li>
+        <li class="spec-item"><span class="spec-key">Power Source</span><span class="spec-val">AC Powered</span></li>
+        <li class="spec-item"><span class="spec-key">Dimensions</span><span class="spec-val">15.6"D × 8.5"W × 19.8"H</span></li>
+        <li class="spec-item"><span class="spec-key">Weight</span><span class="spec-val">13.2 lbs</span></li>
+        <li class="spec-item"><span class="spec-key">Smart Control</span><span class="spec-val">Works with Alexa</span></li>
+        <li class="spec-item"><span class="spec-key">Certification</span><span class="spec-val">AHAM VERIFIDE</span></li>
+        <li class="spec-item"><span class="spec-key">Color</span><span class="spec-val">White / Black</span></li>
+      </ul>
+    </div>
+    <div class="spec-img reveal">
+      <img
+        src="https://m.media-amazon.com/images/I/81JCXG4fDnL._AC_SL1500_.jpg"
+        alt="LEVOIT Vital 200S-P detail"
+        onerror="this.style.display='none'"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<div class="reviews-bg">
+  <section class="section">
+    <p class="section-tag">Customer Reviews</p>
+    <h2 class="section-title">13,000+ Families Breathing Easier</h2>
+    <p class="section-sub">Real reviews from verified Amazon purchasers — allergy sufferers, pet owners, and parents.</p>
+
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"My allergies have never been under better control. This thing runs quietly at night in sleep mode and the air quality monitor actually shows me how clean the air is. Best purchase I've made for my health."</p>
+        <div class="review-author">
+          <div class="review-avatar">A</div>
+          <div><div class="review-name">Amanda R.</div><div class="review-date">Verified Purchase · March 2025</div></div>
+        </div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"I have three cats and the pet odors used to be unbearable. Within two days of running this, the smell was gone. The U-shaped inlet actually sucks up cat hair without clogging. Incredible."</p>
+        <div class="review-author">
+          <div class="review-avatar">M</div>
+          <div><div class="review-name">Michael T.</div><div class="review-date">Verified Purchase · Feb 2025</div></div>
+        </div>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"AHAM certified means I can actually trust the specs. Covers my open-plan living room and kitchen perfectly. The sleep mode is whisper quiet — my baby doesn't even stir. Worth every penny."</p>
+        <div class="review-author">
+          <div class="review-avatar">C</div>
+          <div><div class="review-name">Claire W.</div><div class="review-date">Verified Purchase · Jan 2025</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- FINAL CTA -->
+<div class="final-cta">
+  <h2 class="reveal">Start Breathing Cleaner Air Today</h2>
+  <p class="reveal">AHAM certified · HEPA-grade filtration · 13,000+ happy families</p>
+  <div class="final-price-row reveal">
+    <span class="final-price-current">$159.99</span>
+    <span class="final-price-orig">$189.99</span>
+    <span class="final-badge">-16% OFF</span>
+  </div>
+  <a href="https://www.amazon.com/dp/B0BGPF71Q6?maas=maas_adg_api_579991495871079815_static_12_201&ref_=aa_maas&tag=maas&aa_campaignid=a477c0bda19fb9901ce191bb864d6441&aa_adgroupid=2441kx9uSFiq0JC1_bqa73au6LItxCXY2rjNdCcW0CyWrKV5B_b4OG_bXN61txeFOKlC9SYqHSa8Z9OjfwZd4NAvTU_c&aa_creativeid=e4ad0aLlprfqgkR3gzknH0N8f7ao8e0XVe4fmrKFduqnrw0_c&th=1" target="_blank" rel="noopener">
+    <button class="cta-btn-white reveal">
+      🛒 &nbsp; Shop Now on Amazon
+    </button>
+  </a>
+  <p class="final-note reveal">✓ FREE Returns &nbsp;·&nbsp; Secure Amazon Checkout &nbsp;·&nbsp; Prime Eligible</p>
+  <p class="final-redirect reveal">Redirecting to Amazon for secure checkout</p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>This page promotes the <strong>LEVOIT Vital 200S-P Air Purifier</strong> available on <a href="https://www.amazon.com/dp/B0BGPF71Q6?maas=maas_adg_api_579991495871079815_static_12_201&ref_=aa_maas&tag=maas" target="_blank" rel="noopener">Amazon.com</a>. Product images and trademarks are property of LEVOIT / Vesync Co. Ltd.</p>
+  <p class="footer-links">
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <span>·</span>
+    <a href="terms.html">Terms</a>
+    <span>·</span>
+    <a href="contact.html">Contact</a>
+  </p>
+</footer>
+
+<!-- Sticky CTA (mobile) -->
+<div class="sticky-cta">
+  <div>
+    <div class="sticky-price">$159.99</div>
+    <div class="sticky-orig">$189.99</div>
+  </div>
+  <a href="https://www.amazon.com/dp/B0BGPF71Q6?maas=maas_adg_api_579991495871079815_static_12_201&ref_=aa_maas&tag=maas&aa_campaignid=a477c0bda19fb9901ce191bb864d6441&aa_adgroupid=2441kx9uSFiq0JC1_bqa73au6LItxCXY2rjNdCcW0CyWrKV5B_b4OG_bXN61txeFOKlC9SYqHSa8Z9OjfwZd4NAvTU_c&aa_creativeid=e4ad0aLlprfqgkR3gzknH0N8f7ao8e0XVe4fmrKFduqnrw0_c&th=1" target="_blank" rel="noopener">Buy on Amazon →</a>
+</div>
+
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => io.observe(el));
+
+  document.querySelectorAll('a[href*="amazon.com"]').forEach(link => {
+    link.addEventListener('click', () => {
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'click_cta', { event_category: 'CTA', event_label: 'Vital200S-P_' + link.textContent.trim() });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
