@@ -1494,9 +1494,9 @@ img {
 .buy-button,
 .article-body a.buy-button,
 button[type="submit"] {
-  color: #ffffff;
-  background: #0f766e;
-  border-color: #0f766e;
+  color: #111111;
+  background: #ff9900;
+  border-color: #ff9900;
 }
 
 .newsletter button:hover,
@@ -1504,8 +1504,8 @@ button[type="submit"] {
 .buy-button:hover,
 .article-body a.buy-button:hover,
 button[type="submit"]:hover {
-  color: #ffffff;
-  background: #115e59;
-  border-color: #115e59;
+  color: #111111;
+  background: #e68a00;
+  border-color: #e68a00;
 }
 
