@@ -1487,3 +1487,25 @@ img {
 .standards-grid strong { font-family: var(--serif); font-size: 1.15rem; }
 .standards-grid span { color: var(--muted); margin-top: 6px; }
 @media (max-width: 860px) { .standards-grid { grid-template-columns: 1fr; } }
+
+/* Main-site CTA readability overrides */
+.newsletter button,
+.article-newsletter button,
+.buy-button,
+.article-body a.buy-button,
+button[type="submit"] {
+  color: #ffffff;
+  background: #0f766e;
+  border-color: #0f766e;
+}
+
+.newsletter button:hover,
+.article-newsletter button:hover,
+.buy-button:hover,
+.article-body a.buy-button:hover,
+button[type="submit"]:hover {
+  color: #ffffff;
+  background: #115e59;
+  border-color: #115e59;
+}
+
