@@ -1494,6 +1494,10 @@ img {
 .buy-button,
 .article-body a.buy-button,
 button[type="submit"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   color: #111111;
   background: #ff9900;
   border-color: #ff9900;
